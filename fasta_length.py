@@ -30,4 +30,9 @@ fasta_sequence_lengths.append(sequence_length)
 # Closing the file:
 fastafile.close() #Siempre se necesita cerrar el archivo despues de abrirlo con open
 
-print(sorted(fasta_sequence_lengths))
+#Create and call a function which prints the sorted sequence length as well as the 
+#maximum and minimum sequence length
+def print_stats(sequence_list):
+	print(sorted(sequence_list):
+	print("The max is {} and the min is {}.".format
+print_stats(fasta_sequence_lengths)
